@@ -1,0 +1,43 @@
+# Dependencias e instaladores
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Salidas de compilación y bundles
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+.venv/
+venv/
+
+# Configuraciones locales y secretos
+.env
+.env.*
+*.local
+
+# Sistemas operativos / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Cachés comunes
+.eslintcache
+.parcel-cache/
+.turbo/
+
